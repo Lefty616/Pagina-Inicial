@@ -1,0 +1,115 @@
+/*Aqui se elimina todo el margen de la página para que sea posible rellenar de color el header y el footer sin que queden huecos*/
+*{
+    margin: 0%;
+}
+/*Aqui se añade una linea alrededor de las letras y color para mas estilo y se centra con la lista de links*/
+#titulo{
+    margin-left: 46.3%;
+    margin-bottom: 1%;
+    color:gray;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+}
+/*Aqui se establece una imagen como fondo, si se usara el asterisco tambien aplicaria a los textos otra imagen aparte*/
+body{
+    background-size: cover;   
+    background-image: url(thumb-1920-600594.jpg);
+    background-repeat: no-repeat;
+}
+header{
+    background-color: #24252A;
+    
+    
+    
+    
+}
+nav{
+    margin-bottom: 10%;
+}
+/*Aqui se separan los links de el texto de debajo y entre ellos y se colorean*/
+ ul,li,a{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 500;
+    font-size: 16pt;
+    color:white;
+    text-decoration: none;
+    display: inline;
+    margin: 105px;
+    padding: 1px;
+    
+    
+}
+/*Aqui cambia los links de color al pasar el raton para ser mas intuitivo*/
+a :hover{
+    color: lightcoral
+
+}
+
+main{
+    text-align: center;
+    color: rgb(241, 247, 246)
+}
+.subtitulo{
+    color: lightblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/*Aqui posiciono el pie de pagina hacia abajo y relleno su fondo de color negro*/
+aside{
+    position:absolute;
+    right: 0;;
+    bottom: 80px;
+}
+/*Los selectores añadiran una flecha y cambiaran el color del link al pasar el ratón, respectivamente*/
+aside ::after{
+    content: " <-----";
+    color: lightblue;
+}
+a:hover{
+    color:rgb(38, 221, 206);
+}
+/*Aqui se añade un enlace para volver a la pagina de inicio en cada subpagina*/
+.volver{
+    color:whitesmoke;
+}
+/*En cada clase se colocan los audios , videos y tabla de tal manera que queden centrados*/
+.audio1{
+    position: absolute;
+    right:400px;
+    bottom: 500px;
+    color: rgb(215, 38, 221);
+}
+.audio2{
+    position: absolute;
+    left: 400px;
+    bottom: 500px;
+    color:rgb(215, 38, 221);
+}
+
+.video1{
+    position: absolute;
+    right:  200px;
+    bottom: 350px;
+    color: rgb(38, 221, 206);
+}
+.video2{
+    position: absolute;
+    left:  200px;
+    bottom: 350px;
+    color: rgb(38, 221, 206);
+}
+.tabla{
+    position: absolute;
+    right: 600px;
+    bottom: 400px;
+    color: rgb(86, 3, 97);
+}
+footer {
+    background-color: #24252A;
+    position:absolute;
+    bottom: 0;
+    width: 98%;
+    color: white;
+    padding: 1%;
+         
+
+}
